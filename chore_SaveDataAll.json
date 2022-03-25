@@ -1,0 +1,26 @@
+{
+	"@type":"Chore",
+	"Name":"SaveDataAll",
+	"StartTime":"2022-03-24T15:22Z",
+	"DSTSensitive":false,
+	"Active":false,
+	"ExecutionMode":"SingleCommit",
+	"Frequency":"P0DT00H01M00S",
+	"Tasks":
+	[
+		{
+			"Step":0,
+			"Parameters":
+			[
+				{
+					"Name":"pWaitLimit",
+					"Value":0
+				}
+			],
+			"Process":
+			{
+				"@id":"Processes('z_SaveDataAll')"
+			}
+		}
+	]
+}
