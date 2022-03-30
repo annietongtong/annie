@@ -1,0 +1,20 @@
+{
+	"@type":"Chore",
+	"Name":"Platters1_Chore4",
+	"StartTime":"2022-03-29T13:56Z",
+	"DSTSensitive":true,
+	"Active":false,
+	"ExecutionMode":"SingleCommit",
+	"Frequency":"P0DT00H00M00S",
+	"Tasks":
+	[
+		{
+			"Step":0,
+			"Parameters":[],
+			"Process":
+			{
+				"@id":"Processes('z_SaveDataAll')"
+			}
+		}
+	]
+}
