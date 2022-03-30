@@ -3,7 +3,7 @@
 	"Name":"z_SaveDataAll",
 	"HasSecurityAccess":false,
 	"Code@Code.link":"z_SaveDataAll.ti",
-	"UIData":"CubeAction=1511\fDataAction=1503\fCubeLogChanges=0\f",
+	"UIData":"_ParameterConstraints=e30=\f",
 	"DataSource":
 	{
 		"Type":"None"

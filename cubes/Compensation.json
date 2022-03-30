@@ -28,6 +28,7 @@
 		"Compensation.views/All.json",
 		"Compensation.views/Compensation.json",
 		"Compensation.views/Default.json",
-		"Compensation.views/Input.json"
+		"Compensation.views/Input.json",
+		"Compensation.views/Test_Print_Report.json"
 	]
 }

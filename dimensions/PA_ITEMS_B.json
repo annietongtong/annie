@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"PA_ITEMS_B",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('PA_ITEMS_B')/Hierarchies('PA_ITEMS_B')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"PA_ITEMS_B.hierarchies/PA_ITEMS_B.json"
+	]
+}

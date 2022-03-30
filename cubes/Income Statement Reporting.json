@@ -28,6 +28,7 @@
 	[
 		"Income Statement Reporting.views/All.json",
 		"Income Statement Reporting.views/Default.json",
-		"Income Statement Reporting.views/Income Statement - Management.json"
+		"Income Statement Reporting.views/Income Statement - Management.json",
+		"Income Statement Reporting.views/Income Statement by Year.json"
 	]
 }

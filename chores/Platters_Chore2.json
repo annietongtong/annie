@@ -1,7 +1,7 @@
 {
 	"@type":"Chore",
-	"Name":"PAW_Chore2",
-	"StartTime":"2022-03-29T12:05Z",
+	"Name":"Platters_Chore2",
+	"StartTime":"2022-03-30T13:49:32Z",
 	"DSTSensitive":true,
 	"Active":false,
 	"ExecutionMode":"SingleCommit",

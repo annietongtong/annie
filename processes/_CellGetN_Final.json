@@ -1,0 +1,23 @@
+{
+	"@type":"Process",
+	"Name":"_CellGetN_Final",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"_CellGetN_Final.ti",
+	"UIData":"CubeAction=1511\fDataAction=1503\fCubeLogChanges=0\f",
+	"VariablesUIData":
+	[
+		"IgnoredInputVarName=sParentReqID\fVarType=32\fColType=1165\f",
+		"IgnoredInputVarName=sParentAllocation\fVarType=32\fColType=1165\f",
+		"IgnoredInputVarName=sFilesPending\fVarType=32\fColType=1165\f",
+		"IgnoredInputVarName=Value\fVarType=33\fColType=1165\f"
+	],
+	"DataSource":
+	{
+		"Type":"TM1CubeView",
+		"dataSourceNameForClient":"sRequestIDCube",
+		"dataSourceNameForServer":"sRequestIDCube",
+		"view":"View1"
+	},
+	"Parameters":[],
+	"Variables":[]
+}

@@ -1,0 +1,47 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+nAttempt = 0;
+nMaxAttempts = 4;
+nSleepInterval = 15000;
+p1 = 1;
+p2 = 1;
+p3 = 1;
+nFilesPending = CellGetN('sRequestIDCube','1', '1', '1');
+While (nFilesPending <> 0 & nAttempt <= nMaxAttempts);
+  nFilesPending =  CellGetN('sRequestIDCube', NumberToString(p1), NumberToString(p2), NumberToString(p3));
+  If (nFilesPending <> 0 & nAttempt < nMaxAttempts);
+    nAttempt = nAttempt + 1;
+    ASCIIOutput('C:\Temp\CellGetN.txt', 'Attempts =', NumberToString(nAttempt), 'nFilesPending = ', NumberToString(nFilesPending));
+   # CellPutN(0,'sRequestIDCube', '1', '1', '1');
+    Sleep(nSleepInterval);
+    #nFilesPending = 99999999;
+  ElseIf (nFilesPending <> 0 & nAttempt = nMaxAttempts);
+    LogOutput('ERROR', 'The process could not be initiated as the caller allocation did not finish after ' | NumberToString(nMaxAttempts*nSleepInterval/1000) | ' seconds.');
+    ProcessError();
+ ElseIf (nFilesPending =2 & nAttempt = nMaxAttempts);
+     ASCIIOutput('C:\Temp\CellGetN_2.txt', 'Attempts =', NumberToString(nAttempt), 'nFilesPending = ', NumberToString(nFilesPending));
+  EndIf;
+End;
+If (nFilesPending=0);
+      ASCIIOutput('C:\Temp\CellGetN_0.txt', 'Attempts =', NumberToString(nAttempt), 'nFilesPending = ', NumberToString(nFilesPending));
+EndIf;
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
