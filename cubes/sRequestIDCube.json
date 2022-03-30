@@ -1,0 +1,20 @@
+{
+	"@type":"Cube",
+	"Name":"sRequestIDCube",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('sParentReqID')"
+		},
+		{
+			"@id":"Dimensions('sParentAllocation')"
+		},
+		{
+			"@id":"Dimensions('sFilesPending')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"sRequestIDCube.views/View1.json"
+	]
+}

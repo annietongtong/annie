@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"sFilesPending",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('sFilesPending')/Hierarchies('sFilesPending')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"sFilesPending.hierarchies/sFilesPending.json"
+	]
+}
