@@ -1,0 +1,10 @@
+{
+	"@type":"Chore",
+	"Name":"PAW_Chore2",
+	"StartTime":"2022-03-30T17:01:46.691Z",
+	"DSTSensitive":true,
+	"Active":false,
+	"ExecutionMode":"SingleCommit",
+	"Frequency":"P0DT00H00M00S",
+	"Tasks":[]
+}
