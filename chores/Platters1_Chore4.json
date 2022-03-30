@@ -5,7 +5,7 @@
 	"DSTSensitive":true,
 	"Active":false,
 	"ExecutionMode":"SingleCommit",
-	"Frequency":"P0DT00H00M00S",
+	"Frequency":"P0DT00H02M00S",
 	"Tasks":
 	[
 		{
