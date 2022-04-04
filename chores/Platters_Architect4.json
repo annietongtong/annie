@@ -1,11 +1,11 @@
 {
 	"@type":"Chore",
-	"Name":"Platters_Chore7",
-	"StartTime":"2022-03-28T14:25Z",
+	"Name":"Platters_Architect4",
+	"StartTime":"2022-04-03T13:44:06Z",
 	"DSTSensitive":true,
 	"Active":true,
 	"ExecutionMode":"SingleCommit",
-	"Frequency":"P0DT00H02M00S",
+	"Frequency":"P0DT00H01M00S",
 	"Tasks":
 	[
 		{

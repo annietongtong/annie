@@ -1,0 +1,20 @@
+{
+	"@type":"Chore",
+	"Name":"uncross1_Chore1",
+	"StartTime":"2022-03-29T14:32Z",
+	"DSTSensitive":true,
+	"Active":false,
+	"ExecutionMode":"SingleCommit",
+	"Frequency":"P0DT00H02M00S",
+	"Tasks":
+	[
+		{
+			"Step":0,
+			"Parameters":[],
+			"Process":
+			{
+				"@id":"Processes('z_SaveDataAll')"
+			}
+		}
+	]
+}

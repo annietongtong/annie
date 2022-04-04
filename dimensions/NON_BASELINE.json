@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"NON_BASELINE",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('NON_BASELINE')/Hierarchies('NON_BASELINE')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"NON_BASELINE.hierarchies/NON_BASELINE.json"
+	]
+}
